@@ -15,3 +15,5 @@ COPY . .
 
 # Running the app
 CMD [ "yarn", "deploy:prod" ]
+
+EXPOSE 3000
